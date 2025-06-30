@@ -167,7 +167,7 @@ const HomePage = () => {
                         <div className={styles.sportAmountTextContainer} style={{alignItems: "end", textAlign: "right"}}>
                             <p>SPORTSBETTING, BUT <strong>EASY</strong></p>
                             <h1>Get sports predictions instantly</h1>
-                            <p>Lorem ipsum dolor sit amet consectetur,  adipisicing elit. Voluptatum cupiditate atque sunt quidem, veniam nihil reiciendis libero cumque. Aut animi itaque omnis ducimus dolorem labore necessitatibus rerum suscipit fugiat magni!</p>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum cupiditate atque sunt quidem, veniam nihil reiciendis libero cumque. Aut animi itaque omnis ducimus dolorem labore necessitatibus rerum suscipit fugiat magni!</p>
                             <Link to="/blank">
                                 <button className={styles.sportAmountBtn}>
                                     <div className={styles.sportAmountIconContainer}>
