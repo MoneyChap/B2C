@@ -1,0 +1,13 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="1 1 22 22"
+>
+    <path
+    d="M 12 22 C 17.523 22 22 17.523 22 12 C 22 6.477 17.523 2 12 2 C 6.477 2 2 6.477 2 12 C 2 17.523 6.477 22 12 22 Z"
+    fill="transparent"
+    strokeWidth="2"
+    stroke="rgb(0,0,0)"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+  />
+</svg>

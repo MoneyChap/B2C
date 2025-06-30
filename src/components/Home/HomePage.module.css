@@ -1,0 +1,310 @@
+/*
+Scroll item green fade: background: radial-gradient(56.7% 100% at 50% 100%, rgba(0, 168, 73, 0.6) 0%, rgba(0, 166, 72, 0.58) 0%, rgba(0, 113, 49, 0.2) 71.5653%, rgba(0, 0, 0, 0) 100%);
+
+Big green fade: background: radial-gradient(54% 79.6% at 50% 100%, rgba(0, 168, 73, 0.6) 0%, rgba(0, 0, 0, 0) 100%);
+
+*/
+
+/* 
+==============
+Home Section
+==============
+*/
+.homeSection {
+    width: 100%;
+    height: 100vh;
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    justify-content: center;
+    background-image: url("../../assets/bluefadebg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.textContainer {
+    color: white;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10%;
+    height: auto;
+    text-shadow: 2px 2px 5px black;
+}
+
+.mainHeader {
+    text-align: center;
+    font-size: 52px;
+}
+
+.text {
+    text-align: center;
+    font-weight: 600;
+}
+
+.homeLink {
+    margin-top: 5px;
+    text-decoration: none;
+    width: 60%;
+}
+
+.homeButton {
+    font-family: "Montserrat", sans-serif;
+    width: 100%;
+    padding: 10px;
+    background-color: white;
+    border-radius: 16px;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    color: black;
+    font-weight: 600;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.homeBottomFade {
+    width: 100vw;
+    position: absolute;
+    bottom: 0;
+}
+
+/* 
+==============
+Scroll Section
+==============
+*/
+
+.scrollSection {
+    background-color: black;
+    color: white;
+    padding-top: 3%;
+    mask-image: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 12.5%, rgb(0, 0, 0) 87.5%, rgba(0, 0, 0, 0) 100%);
+    background: radial-gradient(54% 79.60000000000001% at 50% 100%, #006da8db, #0000);
+}
+
+.scrollViewport {
+    width: 100vw;
+    /* overflow: hidden; */
+    padding-top: 2%;
+}
+
+
+.scrollContainer {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    will-change: transform;
+    scrollbar-width: none;
+    flex-wrap: nowrap;
+    width: max-content;
+    white-space: transform;
+}
+
+.scrollContainer::-webkit-scrollbar {
+    display: none;
+}
+
+@keyframes scroll-left {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-50%);
+    }
+}
+
+.scrollAnimate {
+    animation: scroll-left linear infinite;
+    /* adjust this duration to taste: shorter = faster */
+    animation-duration: 60s;
+    will-change: transform;
+}
+
+.scrollItem {
+    width: 350px;
+    border: 1px white solid;
+    border-color: rgba(0, 132, 240, 0.6);
+    border-radius: 10px;
+    background-color: rgba(217, 217, 217, 0.1);
+    height: 20%;
+    flex: 0 0 auto;
+}
+
+.bluefade {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(56.7% 100% at 50% 100%, rgba(0, 101, 168, 0.7) 0%, rgba(0, 119, 166, 0.9) 0%, rgba(0, 64, 113, 0.6) 71.5653%, rgba(0, 0, 0, 0) 100%);
+}
+
+.itemImgContainer {
+    height: 20%;
+    position: relative;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.itemImg {
+    position: absolute;
+    width: 150px;
+    transform: translateY(-50%);
+    filter: drop-shadow(rgba(0, 0, 0, 1) 0px 0px 7px);
+    word-break: break-word;
+}
+
+.itemText {
+    text-align: center;
+    width: 75%;
+    margin: 0;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.userAmountContainer {
+    height: 400px;
+    margin-top: 85px;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.amountHeader {
+    font-size: 132px;
+    margin: 0;
+    background: linear-gradient(to bottom, #0094f0, #006696);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    display: block;
+}
+
+.amountText {
+    width: 60%;
+    text-align: center;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+/* 
+==============
+Sports Amount Section
+==============
+*/
+
+.sportAmountSection {
+    padding: 20px;
+    color: white;
+}
+
+.sportAmountContainer {
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    /* background-image: url("../../assets/bluefadebg.png"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    border-radius: 25px;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sportAmountMainContainer {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.sportAmountTextContainer {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.sportAmountTextContainer p {
+    font-size: 18px;
+    margin: 0;
+
+}
+
+.sportAmountTextContainer h1 {
+    font-size: 40px;
+    margin: 0;
+}
+
+.sportAmountImgContainer {
+    width: 50%;
+}
+
+.sportAmountImgContainer img {
+    width: 100%;
+}
+
+.sportAmountTextContainer a {
+    text-decoration: none;
+}
+
+.sportAmountBtn {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    padding: 8px 8px;
+    border-radius: 16px;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    transition: .3s;
+    gap: 3px;
+}
+
+.sportAmountBtn:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
+}
+
+.sportAmountIconContainer {
+    background-image: url("../../assets/buttonCircle.svg");
+    background-repeat: no-repeat;
+    background-size: 101.5% 101.5%;
+    background-position: center;
+    box-sizing: border-box;
+    width: 32px;
+    height: 32px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    border-radius: 50%;
+    clip-path: circle(50% at 50% 50%);
+}
+
+.sportAmountBtn:hover .sportAmountIconContainer svg {
+    transform: translateX(0);
+}
+
+.sportAmountIconContainer svg {
+    width: 100%;
+    height: 100%;
+    display: block;
+    transition: .3s;
+    flex: 0 0 auto;
+    transform: translateX(-100%);
+}
