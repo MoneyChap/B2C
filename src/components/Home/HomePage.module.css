@@ -86,8 +86,8 @@ Scroll Section
 
 .scrollViewport {
     width: 100vw;
-    /* overflow: hidden; */
-    padding-top: 2%;
+    overflow: hidden;
+    padding-top: 3%;
 }
 
 
@@ -203,7 +203,7 @@ Sports Amount Section
 */
 
 .sportAmountSection {
-    padding: 20px;
+    padding: 20px 20px 0;
     color: white;
 }
 
