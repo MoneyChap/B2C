@@ -169,7 +169,7 @@ const HomePage = () => {
                     <div className={styles.sportAmountMainContainer} style={{ flexDirection: "row-reverse" }}>
                         <div className={styles.sportAmountTextContainer} style={{ alignItems: "end", textAlign: "right" }}>
                             <p>REAL TIME <strong>UPDATES</strong></p>
-                            <h1>Get updates for live matches</h1>
+                            <h1>Fast updates for live matches</h1>
                             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum cupiditate atque sunt quidem, veniam nihil reiciendis libero cumque. Aut animi itaque omnis ducimus dolorem labore necessitatibus rerum suscipit fugiat magni!</p>
                             <Link to="/blank">
                                 <button className={styles.sportAmountBtn}>
@@ -236,8 +236,8 @@ const HomePage = () => {
                 <div className={styles.sportAmountContainer} style={{ backgroundImage: `url(${greyBG})` }}>
                     <div className={styles.sportAmountMainContainer}>
                         <div className={styles.sportAmountTextContainer}>
-                            <p>SPORTSBETTING, BUT <strong>EASY</strong></p>
-                            <h1>Get sports predictions instantly</h1>
+                            <p>EXPERT LEVEL <strong>ADVICE</strong></p>
+                            <h1>Highest level of sport match analisys</h1>
                             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum cupiditate atque sunt quidem, veniam nihil reiciendis libero cumque. Aut animi itaque omnis ducimus dolorem labore necessitatibus rerum suscipit fugiat magni!</p>
                             <Link to="/blank">
                                 <button className={styles.sportAmountBtn}>
@@ -304,8 +304,8 @@ const HomePage = () => {
                 <div className={styles.sportAmountContainer} style={{ backgroundImage: `url(${purpleBG})`, backgroundPosition: "bottom" }}>
                     <div className={styles.sportAmountMainContainer} style={{ flexDirection: "row-reverse" }}>
                         <div className={styles.sportAmountTextContainer} style={{ alignItems: "end", textAlign: "right" }}>
-                            <p>REAL TIME <strong>UPDATES</strong></p>
-                            <h1>Get updates for live matches</h1>
+                            <p>HIGH <strong>WINRATE</strong></p>
+                            <h1>Up to 80% winrate over 5 years</h1>
                             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum cupiditate atque sunt quidem, veniam nihil reiciendis libero cumque. Aut animi itaque omnis ducimus dolorem labore necessitatibus rerum suscipit fugiat magni!</p>
                             <Link to="/blank">
                                 <button className={styles.sportAmountBtn}>
@@ -364,6 +364,31 @@ const HomePage = () => {
                     <div className={styles.sportsCarousel}>
                         <div className={styles.sportsCarouselItem}>
 
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section className={styles.latestArticleSection}>
+                <div className={styles.latestArticleContainer}>
+                    <h1 className={styles.latestArticleHeadline}>Latest articles</h1>
+                    <div className={styles.latestArticles}>
+                        <div className={styles.latestArticleItem}>
+                            <img className={styles.latestArticleImg} src={purpleBG} alt={purpleBG} />
+                            <p className={styles.latestArticleTag}>Events</p>
+                            <p className={styles.latestArticleItemHeadline}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat, ipsum quasi.</p>
+                            <p className={styles.latestArticleDate}>Jun 23, 2025</p>
+                        </div>
+                        <div className={styles.latestArticleItem}>
+                            <img className={styles.latestArticleImg} src={purpleBG} alt={purpleBG} />
+                            <p className={styles.latestArticleTag}>Events</p>
+                            <p className={styles.latestArticleItemHeadline}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat, ipsum quasi.</p>
+                            <p className={styles.latestArticleDate}>Jun 23, 2025</p>
+                        </div>
+                        <div className={styles.latestArticleItem}>
+                            <img className={styles.latestArticleImg} src={purpleBG} alt={purpleBG} />
+                            <p className={styles.latestArticleTag}>Events</p>
+                            <p className={styles.latestArticleItemHeadline}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat, ipsum quasi.</p>
+                            <p className={styles.latestArticleDate}>Jun 23, 2025</p>
                         </div>
                     </div>
                 </div>

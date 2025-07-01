@@ -308,3 +308,77 @@ Sports Amount Section
     flex: 0 0 auto;
     transform: translateX(-100%);
 }
+
+/* 
+==============
+Latest Article Section
+==============
+*/
+
+.latestArticleSection {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.latestArticleContainer {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.latestArticleHeadline {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    margin: 0;
+}
+
+.latestArticles {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+.latestArticleItem {
+    width: 30%;
+    background-color: rgb(30, 30, 30);
+    border-radius: 16px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.latestArticleImg {
+    width: 100%;
+    height: auto;
+    border-radius: 9px;
+}
+
+.latestArticleTag {
+    font-weight: 600;
+    background-color: rgb(62, 62, 62);
+    padding: 3px 9px;
+    font-size: 14px;
+    border-radius: 25px;
+    flex-wrap: nowrap;
+    flex: none;
+    width: min-content;
+}
+
+.latestArticleItemHeadline {
+    font-size: 18px;
+    font-weight: 600;
+    
+}
+
+.latestArticleDate {
+    font-weight: 300;
+    color: rgb(134, 134, 134);
+}
