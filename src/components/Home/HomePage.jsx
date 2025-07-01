@@ -7,7 +7,8 @@ import SportsBalls from "../../assets/SportsBalls.png";
 import orangeBG from "../../assets/orangeBG.png";
 import blueBG from "../../assets/bluefadebg.png";
 import greyBG from "../../assets/greyBG.png";
-
+import liveClock from "../../assets/liveClock.png";
+import brain from "../../assets/brain.png";
 
 
 const HomePage = () => {
@@ -57,15 +58,15 @@ const HomePage = () => {
                         <div className={styles.scrollItem}>
                             <div className={styles.bluefade}>
                                 <div className={styles.itemImgContainer}>
-                                    <img className={styles.itemImg} src={lightningImg} alt={lightningImg} />
+                                    <img className={styles.itemImg} src={liveClock} alt={liveClock} />
                                 </div>
-                                <p className={styles.itemText}>Experience sports betting like never before</p>
+                                <p className={styles.itemText}>Get real time updates on live matches</p>
                             </div>
                         </div>
                         <div className={styles.scrollItem}>
                             <div className={styles.bluefade}>
                                 <div className={styles.itemImgContainer}>
-                                    <img className={styles.itemImg} src={lightningImg} alt={lightningImg} />
+                                    <img className={styles.itemImg} src={brain} alt={brain} />
                                 </div>
                                 <p className={styles.itemText}>Experience sports betting like never before</p>
                             </div>
@@ -165,8 +166,8 @@ const HomePage = () => {
                 <div className={styles.sportAmountContainer}  style={{backgroundImage: `url(${orangeBG})`, backgroundPosition: "bottom"}}>
                     <div className={styles.sportAmountMainContainer} style={{flexDirection: "row-reverse"}}>
                         <div className={styles.sportAmountTextContainer} style={{alignItems: "end", textAlign: "right"}}>
-                            <p>SPORTSBETTING, BUT <strong>EASY</strong></p>
-                            <h1>Get sports predictions instantly</h1>
+                            <p>REAL TIME <strong>UPDATES</strong></p>
+                            <h1>Get updates for live matches</h1>
                             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum cupiditate atque sunt quidem, veniam nihil reiciendis libero cumque. Aut animi itaque omnis ducimus dolorem labore necessitatibus rerum suscipit fugiat magni!</p>
                             <Link to="/blank">
                                 <button className={styles.sportAmountBtn}>
@@ -219,7 +220,7 @@ const HomePage = () => {
                             </Link>
                         </div>
                         <div className={styles.sportAmountImgContainer}>
-                            <img src={SportsBalls} alt={SportsBalls} />
+                            <img src={liveClock} alt={liveClock} />
                         </div>
                     </div>
                     <div className={styles.sportsCarousel}>
@@ -287,7 +288,7 @@ const HomePage = () => {
                             </Link>
                         </div>
                         <div className={styles.sportAmountImgContainer}>
-                            <img src={SportsBalls} alt={SportsBalls} />
+                            <img src={brain} alt={brain} />
                         </div>
                     </div>
                     <div className={styles.sportsCarousel}>
