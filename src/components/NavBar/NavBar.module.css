@@ -1,0 +1,39 @@
+.navBarContainer {
+    position: fixed;
+    top: 30px;
+    width: 100%;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+
+}
+
+.navBar {
+    padding: 20px 15px;
+    width: 50%;
+    backdrop-filter: blur(16px);
+    border-radius: 25px;
+    background-color: rgba(217, 217, 217, 0.1);
+    filter: blur(90);
+    border: 1px rgba(255, 255, 255, 0.4) solid;
+}
+
+.logoContainer {
+    width: min-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logoImg {
+    width: 35px;
+    height: auto;
+}
+
+.logoText {
+    font-weight: 600;
+    font-size: 20px;
+    margin: 0;
+}
