@@ -11,6 +11,7 @@ import purpleBG from "../../assets/purpleBG.jpeg";
 import liveClock from "../../assets/liveClock.png";
 import brain from "../../assets/brain.png";
 import Trophy from "../../assets/80Trophy.png";
+import EmailSection from '../EmailSection/EmailSection';
 
 
 const HomePage = () => {
@@ -367,6 +368,9 @@ const HomePage = () => {
                         </div>
                     </div>
                 </div>
+            </section>
+            <section>
+                <EmailSection/>
             </section>
             <section className={styles.latestArticleSection}>
                 <div className={styles.latestArticleContainer}>

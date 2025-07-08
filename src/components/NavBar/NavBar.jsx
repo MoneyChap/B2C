@@ -10,7 +10,26 @@ const NavBar = (props) => {
                     <img className={styles.logoImg} src={logo} alt={logo} />
                     <p className={styles.logoText}>BetBrains</p>
                 </div>
-
+                <div className={styles.linkContainer}>
+                    <a href="#">
+                        Blog
+                    </a>
+                    <a href="#">
+                        Brains
+                    </a>
+                    <a href="#">
+                        Price
+                    </a>
+                    <a href="#">
+                        About Us
+                    </a>
+                    <a href="#">
+                        Community
+                    </a>
+                    <a href="#">
+                        FAQ
+                    </a>
+                </div>
             </div>
         </div>
     )

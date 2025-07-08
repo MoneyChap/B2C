@@ -13,11 +13,13 @@
 .navBar {
     padding: 20px 15px;
     width: 50%;
+    display: flex;
     backdrop-filter: blur(16px);
     border-radius: 25px;
     background-color: rgba(217, 217, 217, 0.1);
     filter: blur(90);
     border: 1px rgba(255, 255, 255, 0.4) solid;
+    position: relative;
 }
 
 .logoContainer {
@@ -28,12 +30,29 @@
 }
 
 .logoImg {
-    width: 35px;
+    width: 25px;
     height: auto;
 }
 
 .logoText {
     font-weight: 600;
-    font-size: 20px;
+    font-size: 18px;
     margin: 0;
+}
+
+.linkContainer {
+    position: absolute;
+    left: 50%;
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    align-items: center;
+    transform: translateX(-50%);
+    line-height: 1.7;
+}
+
+.linkContainer a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
 }
