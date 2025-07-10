@@ -6,18 +6,21 @@ const EmailSection = (props) => {
     return (
         <section className={styles.emailSection}>
             <div className={styles.formContainer}>
-                <h1>FREE SHIT</h1>
+                <h1>BECOME BLACK</h1>
                 Receive free daily picks straight from the source
 
-                <li>Free daily picks from our AI</li>
-                <li>News about upcoming events</li>
-                <li>Insights from previous matches</li>
-                <li>TOP offers from our partner sportsbooks</li>
+
                 <form>
                     <label>Email</label>
                     <input type="text" />
                     <button>Subscribe</button>
                 </form>
+                <div>
+                    <li>Free daily picks from our AI</li>
+                    <li>News about upcoming events</li>
+                    <li>Insights from previous matches</li>
+                    <li>TOP offers from our partner sportsbooks</li>
+                </div>
             </div>
             <div className={styles.backgroundContainer}>
                 <img src={BlueCircleBg} alt="background" />

@@ -33,7 +33,8 @@
     height: 100%;
     object-position: center;
     object-fit: cover;
-    animation: spin 1s ease;
+    animation: spin 1.3s ease-out;
+    scale: 1.3;
 }
 
 @keyframes spin {
