@@ -11,22 +11,22 @@ const NavBar = (props) => {
                     <p className={styles.logoText}>BetBrains</p>
                 </div>
                 <div className={styles.linkContainer}>
-                    <a href="#">
+                    <a href="/blog">
                         Blog
                     </a>
-                    <a href="#">
+                    <a href="/brains">
                         Brains
                     </a>
-                    <a href="#">
+                    <a href="/price">
                         Price
                     </a>
-                    <a href="#">
+                    <a href="/aboutus">
                         About Us
                     </a>
-                    <a href="#">
+                    <a href="/community">
                         Community
                     </a>
-                    <a href="#">
+                    <a href="/faq">
                         FAQ
                     </a>
                 </div>
