@@ -167,7 +167,7 @@ const HomePage = () => {
             </section>
             <section className={styles.sportAmountSection}>
                 <div className={styles.sportAmountContainer} style={{ backgroundImage: `url(${orangeBG})`, backgroundPosition: "bottom" }}>
-                    <div className={styles.sportAmountMainContainer} style={{ flexDirection: "row-reverse" }}>
+                    <div className={`${styles.sportAmountMainContainer} ${styles.rowReverse}`}>
                         <div className={styles.sportAmountTextContainer} style={{ alignItems: "end", textAlign: "right" }}>
                             <p>REAL TIME <strong>UPDATES</strong></p>
                             <h1>Fast updates for live matches</h1>
@@ -303,7 +303,7 @@ const HomePage = () => {
             </section>
             <section className={styles.sportAmountSection}>
                 <div className={styles.sportAmountContainer} style={{ backgroundImage: `url(${purpleBG})`, backgroundPosition: "bottom" }}>
-                    <div className={styles.sportAmountMainContainer} style={{ flexDirection: "row-reverse" }}>
+                    <div className={`${styles.sportAmountMainContainer} ${styles.rowReverse}`}>
                         <div className={styles.sportAmountTextContainer} style={{ alignItems: "end", textAlign: "right" }}>
                             <p>HIGH <strong>WINRATE</strong></p>
                             <h1>Up to 80% winrate over 5 years</h1>
@@ -370,7 +370,7 @@ const HomePage = () => {
                 </div>
             </section>
             <section>
-                <EmailSection/>
+                <EmailSection />
             </section>
             <section className={styles.latestArticleSection}>
                 <div className={styles.latestArticleContainer}>

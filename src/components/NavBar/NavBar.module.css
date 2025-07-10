@@ -56,3 +56,14 @@
     color: white;
     font-weight: 600;
 }
+
+@media (max-width: 500px) {
+    .navBar {
+        width: 80%;
+        border-radius: 35px;
+    }
+
+    .linkContainer {
+        display: none;
+    }
+}

@@ -10,6 +10,10 @@ Big green fade: background: radial-gradient(54% 79.6% at 50% 100%, rgba(0, 168, 
 Home Section
 ==============
 */
+.rowReverse {
+    flex-direction: row-reverse;
+}
+
 .homeSection {
     width: 100%;
     height: 100vh;
@@ -384,10 +388,80 @@ Latest Article Section
 .latestArticleItemHeadline {
     font-size: 18px;
     font-weight: 600;
-    
+
 }
 
 .latestArticleDate {
     font-weight: 300;
     color: rgb(134, 134, 134);
+}
+
+/*
+MOBILE 500px
+*/
+
+@media (max-width: 500px) {
+    .rowReverse {
+        flex-direction: column;
+    }
+
+    .homeSection {
+        width: 100%;
+    }
+
+    .textContainer {
+        padding: 20px;
+        width: 100%;
+    }
+
+    .mainHeader {
+        font-size: 24px;
+    }
+
+    .userAmountContainer {
+        margin-top: 40px;
+    }
+
+    .amountHeader {
+        font-size: 64px;
+    }
+
+    .amountText {
+        width: 80%;
+        font-size: 24px;
+    }
+
+    .sportAmountMainContainer {
+        width: 100%;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .sportAmountTextContainer {
+        width: 100%;
+    }
+
+    .sportAmountImgContainer {
+        width: 100%;
+    }
+
+    .latestArticleSection {
+        padding: 30px;
+    }
+
+    .latestArticleContainer {
+        width: 100%;
+    }
+
+    .latestArticles {
+        flex-direction: column;
+        width: 100%;
+        gap: 30px;
+    }
+
+    .latestArticleItem {
+        width: 80%;
+    }
+
+
 }
