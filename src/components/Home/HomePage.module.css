@@ -412,11 +412,15 @@ MOBILE 500px
 
     .textContainer {
         padding: 20px;
-        width: 100%;
+        width: 75%;
     }
 
     .mainHeader {
-        font-size: 46px;
+        font-size: 40px;
+    }
+
+    .text {
+        font-size: 14px;
     }
 
     .userAmountContainer {
