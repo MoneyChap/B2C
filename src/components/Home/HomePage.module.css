@@ -436,6 +436,10 @@ MOBILE 500px
         font-size: 24px;
     }
 
+    .scrollViewport {
+        padding-top: 15%;
+    }
+
     .sportAmountMainContainer {
         width: 100%;
         flex-direction: column;
