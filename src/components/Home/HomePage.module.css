@@ -406,6 +406,7 @@ MOBILE 500px
     }
 
     .homeSection {
+        align-items: center;
         width: 100%;
     }
 
